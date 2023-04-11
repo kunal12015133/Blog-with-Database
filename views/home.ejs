@@ -1,7 +1,14 @@
 
 <%- include("partials/header"); -%>
-    <h1>Home</h1>
-    <p> <%= startingContent %> </p>
+    <h1 class="title">Home</h1>
+    <p> Hey </p>
+    <p>
+      Welecome to my blog website. Here, anyone anonymously can share thier blog and anyone can read those blogs.Each blog is displayed with brief description on the home page. User can read the complete blog by cliking on read more.
+
+    </p>
+    <p>
+      User can easily compose a blog by goinig to "/compose" route. A form askig for title and detail popped up. Fill the details and click on Publish to publish that blog. Blogs will remain as it is even if server is closed
+    </p>
 
 
   <%  posts.forEach(function(post){ %>
