@@ -16,7 +16,7 @@ html {
     font-size: 12px;
     letter-spacing: 5px;
     background: black;
-    color: white;
+    color:#d4cccc !important;
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
